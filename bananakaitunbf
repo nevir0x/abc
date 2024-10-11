@@ -1,0 +1,74 @@
+getgenv().SettingFarm ={
+    ["Hide UI"] = false,
+    ["Fast Attack"] = {
+        ["Speed Attack"] = 0,
+        ["Attack Duration"] = 5,
+        ["Speed Attack if Cooldown"] = 0.25,
+        ["Attack Cooldown"] = 7,
+    },
+    ["Reset Teleport"] = {
+        ["Enabled"] = true,
+        ["Delay Reset"] = 3,
+        ["Item Dont Reset"] = {
+            ["Fruit"] = {
+                ["Enabled"] = true,
+                ["All Fruit"] = true,
+                ["Select Fruit"] = {
+                    ["Enabled"] = false,
+                    ["Fruit"] = {},
+                },
+            },
+        },
+    },
+    ["Lock FPS"] = {
+        ["Enabled"] = true,
+        ["FPS"] = 30,
+    },
+    ["Auto Awaken Fruit"] = true, -- dont support  phoenix
+    ["GodHuman"] = true,
+    ["Priority Get Melee Sea 3"] = true,
+    ["Auto Saber"] = true,
+    ["Auto Pole"] = true,
+    ["Cursed Dual Katana"] = true,
+    ["SoulGuitar"] = true,
+    ["Shark Anchor"] = true, --i have cdk and god and soulguitar
+    ["Farm Mastery Fruit If Lvl Max"] = true,
+    ["Farm Max All Mastery Sword"] = true, --- i need have cdk and godhuman
+    ["Hop Fruit 1M Quest Third Sea"] = false,
+    ["White Screen"] = false,
+    ["Hop if Near Farm Area"] = true,
+    ["Auto Race V2-V3"] = true,
+    ["Auto Pull Lever"] = true,
+    ["Auto Get Mirror Fractal"] = true,
+    ["Lock Fragment"] = {
+        ["Enabled"] = false,
+        ["Fragments"] = 50000
+    },
+    ["Buy Haki Color Legendary"] = true, --- it will buy if u have sgt and godhuman and dont have Valkyrie Helm
+    ["Select Hop"] = { -- 70% will have it
+        ["Hop Find Rip Indra Get Valkyrie Helm"] = false, -- u need have godhuman and max level
+        ["Hop Find Full Moon Soul Guitar"] = false,
+        ["Hop Find Rip Indra Get Tushita"] = false, --- u need have sgt and godhuman
+        ["Hop Find Raids Castle [CDK]"] = false,
+        ["Hop Find Cake Queen [CDK]"] = false,
+        ["Hop Find Soul Reaper [CDK]"] = false,
+    },
+    ["Race"] = {
+        ["Enabled"] = true,
+        ["Auto Roll Race"] = false,
+        ["Select Race"] =  "", -- Human, Mink, Fishman
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = true,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    },
+    ["Blox Fruit Sniper"] = {},
+    ["Lock Fruit"] = {},
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
