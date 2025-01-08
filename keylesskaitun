@@ -32,7 +32,7 @@ Config =
         },
         ["Utilly"] = {
             ["White Screen"] = false,
-            ["Auto Add Friends / Accept Requests"] = true,
+            ["Auto Add Friends / Accept Requests"] = false,
             ["Anti Flagging"] = true,
             ["Auto Hop If There Are Nearby Player When Level Farming"] = true,
             ["Enable Ui"] = true
